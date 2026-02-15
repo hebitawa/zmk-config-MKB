@@ -41,7 +41,7 @@ layers:
   - LGUI
   - LALT
   - {t: LANG1, h: Num}
-  - SPACE
+  - {t: SPACE, h: Mouse}
   - ENTER
   - {t: LANG1, h: Fnc}
   - BACKSLASH
