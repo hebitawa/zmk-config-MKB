@@ -35,8 +35,8 @@
             >;
 
             sensor-bindings =
-                <&msc SCRL_UP &msc SCRL_DOWN>,
-                <&msc SCRL_UP &msc SCRL_DOWN>;
+                <&inc_dec_kp PG_UP PG_DN>,
+                <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
 
         function_layer {
