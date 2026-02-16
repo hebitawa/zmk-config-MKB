@@ -40,10 +40,10 @@ layers:
   - {t: ESCAPE, h: Mouse}
   - LGUI
   - LALT
-  - {t: LANGUAGE 2, h: Num}
+  - {t: INTERNATIONAL 5, h: Num}
   - {t: SPACE, h: Mouse}
   - ENTER
-  - {t: LANG1, h: Fnc}
+  - {t: INTERNATIONAL 4, h: Fnc}
   - BACKSLASH
   - UNDERSCORE
   - PRINTSCREEN
