@@ -40,7 +40,7 @@ layers:
   - {t: ESCAPE, h: Mouse}
   - LGUI
   - LALT
-  - {t: LANG1, h: Num}
+  - {t: LANGUAGE 2, h: Num}
   - {t: SPACE, h: Mouse}
   - ENTER
   - {t: LANG1, h: Fnc}
