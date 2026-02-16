@@ -26,17 +26,8 @@
     keymap {
         compatible = "zmk,keymap";
 
-        behaviors {
-            mouse_scrl: mouse_wheel_scrl {
-                compatible = "zmk,behavior-sensor-rotate-var";
-                #sensor-binding-cells = <2>;
-                bindings = <&msc>, <&msc>;
-
-                tap-ms = <20>;
-            };
-
             sensor-bindings =
-                <&mouse_scrl SCRL_UP SCRL_DOWN>,
+                <&inc_dec_kp PG_UP PAGE_DOWN>,
                 <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
